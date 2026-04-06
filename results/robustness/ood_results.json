@@ -1,0 +1,29 @@
+{
+  "in_distribution": {
+    "dataset": "in_distribution",
+    "n_samples": 100,
+    "sep_mean": 0.5017003861069679,
+    "sep_std": 0.017334065766372368,
+    "norm_mean": 63.982899732600096,
+    "norm_std": 0.6672444452164806,
+    "fallback_rate": 0.0
+  },
+  "random_gibberish": {
+    "dataset": "random_gibberish",
+    "n_samples": 100,
+    "sep_mean": 0.5514690861105919,
+    "sep_std": 0.15049364406862134,
+    "norm_mean": 67.26074442940384,
+    "norm_std": 9.589195576117913,
+    "fallback_rate": 0.1
+  },
+  "adversarial": {
+    "dataset": "adversarial",
+    "n_samples": 100,
+    "sep_mean": 0.6225428050756454,
+    "sep_std": 0.21808189171407785,
+    "norm_mean": 71.87027208096693,
+    "norm_std": 13.660889546999424,
+    "fallback_rate": 0.25
+  }
+}

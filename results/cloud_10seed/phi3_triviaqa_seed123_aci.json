@@ -1,0 +1,16 @@
+{
+  "method": "aci",
+  "seed": 123,
+  "accuracy": 75.4,
+  "cost": 11.15,
+  "edge_rate": 88.85,
+  "edge_error": 25.49240292628025,
+  "total_samples": 2000,
+  "correct": 1508,
+  "cloud_calls": 223,
+  "edge_errors": 453,
+  "timestamp": "2026-01-31T08:06:57.783043",
+  "model": "phi3",
+  "model_name": "Phi-3-medium",
+  "dataset": "triviaqa"
+}

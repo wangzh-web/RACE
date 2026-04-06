@@ -1,0 +1,90 @@
+{
+  "results": {
+    "mmlu": [
+      {
+        "beta": 0.1,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.6806666666666666,
+        "oracle_ratio": 0.06933333333333334,
+        "tco_ratio": 0.6875999999999999,
+        "tco_vs_allcloud": 0.3124,
+        "accuracy": 0.8506666666666667,
+        "edge_error_rate": 0.4136121814693243,
+        "violation_rate": 0.15166666666666664
+      },
+      {
+        "beta": 0.3,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.6786666666666665,
+        "oracle_ratio": 0.05533333333333334,
+        "tco_ratio": 0.6952666666666666,
+        "tco_vs_allcloud": 0.30473333333333336,
+        "accuracy": 0.8493333333333334,
+        "edge_error_rate": 0.4354544744955704,
+        "violation_rate": 0.15416666666666667
+      },
+      {
+        "beta": 0.5,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.6786666666666665,
+        "oracle_ratio": 0.04933333333333334,
+        "tco_ratio": 0.7033333333333335,
+        "tco_vs_allcloud": 0.2966666666666667,
+        "accuracy": 0.848,
+        "edge_error_rate": 0.41834741260644503,
+        "violation_rate": 0.15416666666666667
+      },
+      {
+        "beta": 0.7,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.6846666666666666,
+        "oracle_ratio": 0.034,
+        "tco_ratio": 0.7084666666666667,
+        "tco_vs_allcloud": 0.29153333333333337,
+        "accuracy": 0.8453333333333334,
+        "edge_error_rate": 0.4237983109144862,
+        "violation_rate": 0.14666666666666667
+      },
+      {
+        "beta": 0.8,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.6846666666666666,
+        "oracle_ratio": 0.03133333333333333,
+        "tco_ratio": 0.7097333333333333,
+        "tco_vs_allcloud": 0.2902666666666667,
+        "accuracy": 0.8453333333333334,
+        "edge_error_rate": 0.4237983109144862,
+        "violation_rate": 0.14666666666666667
+      },
+      {
+        "beta": 0.9,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.6866666666666665,
+        "oracle_ratio": 0.024000000000000004,
+        "tco_ratio": 0.7082666666666667,
+        "tco_vs_allcloud": 0.29173333333333334,
+        "accuracy": 0.8486666666666666,
+        "edge_error_rate": 0.42014664767632004,
+        "violation_rate": 0.14416666666666667
+      },
+      {
+        "beta": 1.0,
+        "dataset": "mmlu",
+        "cloud_ratio": 0.7066666666666667,
+        "oracle_ratio": 0.016666666666666666,
+        "tco_ratio": 0.7233333333333333,
+        "tco_vs_allcloud": 0.27666666666666667,
+        "accuracy": 0.8406666666666666,
+        "edge_error_rate": 0.4175595238095238,
+        "violation_rate": 0.11916666666666666
+      }
+    ]
+  },
+  "analysis": {
+    "mmlu": {
+      "breakeven_beta": 1.0,
+      "optimal_beta": 0.1,
+      "optimal_advantage": 0.3124,
+      "advantage_at_05": 0.2966666666666667,
+      "advantage_at_08": 0.2902666666666667,
+      "still_viable_at_08": 

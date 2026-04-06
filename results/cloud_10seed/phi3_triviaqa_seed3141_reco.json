@@ -1,0 +1,16 @@
+{
+  "method": "reco",
+  "seed": 3141,
+  "accuracy": 73.95,
+  "cost": 7.5,
+  "edge_rate": 92.5,
+  "edge_error": 26.594594594594597,
+  "total_samples": 2000,
+  "correct": 1479,
+  "cloud_calls": 150,
+  "edge_errors": 492,
+  "timestamp": "2026-02-14T09:13:21.688426",
+  "model": "phi3",
+  "model_name": "Phi-3-medium",
+  "dataset": "triviaqa"
+}

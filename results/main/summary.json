@@ -1,0 +1,47 @@
+{
+  "reco_mmlu": {
+    "total": 500,
+    "edge_count": 183,
+    "cloud_count": 317,
+    "cloud_ratio": 0.634,
+    "edge_error_rate": 0.26229508196721313,
+    "total_accuracy": 0.904,
+    "cost_saved": 0.366
+  },
+  "all_cloud_mmlu": {
+    "total": 500,
+    "edge_count": 0,
+    "cloud_count": 500,
+    "cloud_ratio": 1.0,
+    "edge_error_rate": 0,
+    "total_accuracy": 1.0,
+    "cost_saved": 0.0
+  },
+  "all_edge_mmlu": {
+    "total": 500,
+    "edge_count": 500,
+    "cloud_count": 0,
+    "cloud_ratio": 0.0,
+    "edge_error_rate": 0.282,
+    "total_accuracy": 0.718,
+    "cost_saved": 1.0
+  },
+  "static_cp_mmlu": {
+    "total": 500,
+    "edge_count": 261,
+    "cloud_count": 239,
+    "cloud_ratio": 0.478,
+    "edge_error_rate": 0.3065134099616858,
+    "total_accuracy": 0.84,
+    "cost_saved": 0.522
+  },
+  "aci_mmlu": {
+    "total": 500,
+    "edge_count": 221,
+    "cloud_count": 279,
+    "cloud_ratio": 0.558,
+    "edge_error_rate": 0.2081447963800905,
+    "total_accuracy": 0.908,
+    "cost_saved": 0.44199999999999995
+  }
+}

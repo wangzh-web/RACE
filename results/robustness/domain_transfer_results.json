@@ -1,0 +1,44 @@
+{
+  "STEM": {
+    "domain": "STEM",
+    "is_unseen": false,
+    "sep_mean": 0.48069342970848083,
+    "sep_std": 0.007993561215698719,
+    "simulated_error_rate": 0.18155627688963055
+  },
+  "Humanities": {
+    "domain": "Humanities",
+    "is_unseen": false,
+    "sep_mean": 0.48146769404411316,
+    "sep_std": 0.009451481513679028,
+    "simulated_error_rate": 0.15413072847909504
+  },
+  "Social Sciences": {
+    "domain": "Social Sciences",
+    "is_unseen": false,
+    "sep_mean": 0.48185816407203674,
+    "sep_std": 0.008918299339711666,
+    "simulated_error_rate": 0.17267362695130456
+  },
+  "Law": {
+    "domain": "Law",
+    "is_unseen": true,
+    "sep_mean": 0.48503315448760986,
+    "sep_std": 0.0124568622559309,
+    "simulated_error_rate": 0.27817550672065866
+  },
+  "Medicine": {
+    "domain": "Medicine",
+    "is_unseen": true,
+    "sep_mean": 0.47518569231033325,
+    "sep_std": 0.010714107193052769,
+    "simulated_error_rate": 0.30054089453268995
+  },
+  "Philosophy": {
+    "domain": "Philosophy",
+    "is_unseen": true,
+    "sep_mean": 0.4823824167251587,
+    "sep_std": 0.008763708174228668,
+    "simulated_error_rate": 0.3457986346438342
+  }
+}

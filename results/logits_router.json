@@ -1,0 +1,50 @@
+{
+  "token_entropy": {
+    "method": "token_entropy",
+    "threshold": 0.30000000000000004,
+    "cloud_rate": 0.427,
+    "edge_rate": 0.573,
+    "edge_error_rate": 0.099,
+    "error_on_edge": 0.17277486910994763,
+    "auroc": 0.6572478070175438,
+    "stats": {
+      "total": 1000,
+      "edge": 573,
+      "cloud": 427,
+      "edge_rate": 0.573,
+      "cloud_rate": 0.427
+    }
+  },
+  "ptrue": {
+    "method": "ptrue",
+    "threshold": 0.25000000000000006,
+    "cloud_rate": 0.323,
+    "edge_rate": 0.677,
+    "edge_error_rate": 0.09,
+    "error_on_edge": 0.1329394387001477,
+    "auroc": 0.5947087642896026,
+    "stats": {
+      "total": 1000,
+      "edge": 677,
+      "cloud": 323,
+      "edge_rate": 0.677,
+      "cloud_rate": 0.323
+    }
+  },
+  "mean_logprob": {
+    "method": "mean_logprob",
+    "threshold": 0.40000000000000013,
+    "cloud_rate": 0.577,
+    "edge_rate": 0.42300000000000004,
+    "edge_error_rate": 0.087,
+    "error_on_edge": 0.20567375886524822,
+    "auroc": 0.6657984274733798,
+    "stats": {
+      "total": 1000,
+      "edge": 423,
+      "cloud": 577,
+      "edge_rate": 0.423,
+      "cloud_rate": 0.577
+    }
+  }
+}

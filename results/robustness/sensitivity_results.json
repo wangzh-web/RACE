@@ -1,0 +1,50 @@
+[
+  {
+    "correlation": 1.0,
+    "mae": 0.0,
+    "original_accuracy": 0.52,
+    "perturbed_accuracy": 0.52,
+    "accuracy_drop": 0.0,
+    "noise_level": 0.0
+  },
+  {
+    "correlation": 0.9974927614611474,
+    "mae": 0.0008822904201224446,
+    "original_accuracy": 0.52,
+    "perturbed_accuracy": 0.52,
+    "accuracy_drop": 0.0,
+    "noise_level": 0.05
+  },
+  {
+    "correlation": 0.9901698819013687,
+    "mae": 0.0017511376645416021,
+    "original_accuracy": 0.52,
+    "perturbed_accuracy": 0.524,
+    "accuracy_drop": -0.0040000000000000036,
+    "noise_level": 0.1
+  },
+  {
+    "correlation": 0.965712979603227,
+    "mae": 0.003355911001563072,
+    "original_accuracy": 0.52,
+    "perturbed_accuracy": 0.538,
+    "accuracy_drop": -0.018000000000000016,
+    "noise_level": 0.2
+  },
+  {
+    "correlation": 0.9213812370217335,
+    "mae": 0.0051539307460188866,
+    "original_accuracy": 0.52,
+    "perturbed_accuracy": 0.514,
+    "accuracy_drop": 0.006000000000000005,
+    "noise_level": 0.3
+  },
+  {
+    "correlation": 0.8372940242780219,
+    "mae": 0.00758695462718606,
+    "original_accuracy": 0.52,
+    "perturbed_accuracy": 0.514,
+    "accuracy_drop": 0.006000000000000005,
+    "noise_level": 0.5
+  }
+]

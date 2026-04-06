@@ -1,0 +1,47 @@
+{
+  "reco_mmlu": {
+    "accuracy_mean": 0.876,
+    "accuracy_std": 0.013366625103842292,
+    "cloud_ratio_mean": 0.7146666666666667,
+    "cloud_ratio_std": 0.041707979518978804,
+    "edge_error_rate_mean": 0.32767165547232563,
+    "edge_error_rate_std": 0.045039470289381225,
+    "violation_rate_mean": 0.10916666666666668
+  },
+  "aci_mmlu": {
+    "accuracy_mean": 0.9380000000000001,
+    "accuracy_std": 0.0016329931618554083,
+    "cloud_ratio_mean": 0.94,
+    "cloud_ratio_std": 0.011313708498984719,
+    "edge_error_rate_mean": 0.2800269905533063,
+    "edge_error_rate_std": 0.019718811330907516,
+    "violation_rate_mean": 0.0
+  },
+  "static_cp_mmlu": {
+    "accuracy_mean": 0.8039999999999999,
+    "accuracy_std": 0.005887840577551903,
+    "cloud_ratio_mean": 0.5113333333333333,
+    "cloud_ratio_std": 0.01517307556898807,
+    "edge_error_rate_mean": 0.35799970010496324,
+    "edge_error_rate_std": 0.019261399313130548,
+    "violation_rate_mean": 0.36333333333333334
+  },
+  "all_edge_mmlu": {
+    "accuracy_mean": 0.5593333333333333,
+    "accuracy_std": 0.019482185594936575,
+    "cloud_ratio_mean": 0.0,
+    "cloud_ratio_std": 0.0,
+    "edge_error_rate_mean": 0.4406666666666667,
+    "edge_error_rate_std": 0.019482185594936627,
+    "violation_rate_mean": 1.0025
+  },
+  "all_cloud_mmlu": {
+    "accuracy_mean": 0.9533333333333333,
+    "accuracy_std": 0.0024944382578492965,
+    "cloud_ratio_mean": 1.0,
+    "cloud_ratio_std": 0.0,
+    "edge_error_rate_mean": 0.0,
+    "edge_error_rate_std": 0.0,
+    "violation_rate_mean": 0.0
+  }
+}

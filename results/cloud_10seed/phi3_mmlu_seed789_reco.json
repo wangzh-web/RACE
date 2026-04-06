@@ -1,0 +1,16 @@
+{
+  "method": "reco",
+  "seed": 789,
+  "accuracy": 71.95,
+  "cost": 8.15,
+  "edge_rate": 91.85,
+  "edge_error": 28.68807838867719,
+  "total_samples": 2000,
+  "correct": 1439,
+  "cloud_calls": 163,
+  "edge_errors": 527,
+  "timestamp": "2026-02-13T15:43:03.450491",
+  "model": "phi3",
+  "model_name": "Phi-3-medium",
+  "dataset": "mmlu"
+}

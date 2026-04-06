@@ -1,0 +1,474 @@
+{
+  "phi3_mmlu": {
+    "aci": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -10.299999999999999,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 18.45,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -43.86179593743161,
+        "p_value": 0.00011962403393150316,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -3.349999999999999,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 75.46666666666665,
+        "b_std": 0.10408329997330869
+      }
+    },
+    "all_cloud": {
+      "cost": {
+        "statistic": -9140584314398314.0,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -91.84999999999998,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 100.0,
+        "b_std": 0.0
+      },
+      "accuracy": {
+        "statistic": -98.71291103989017,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -13.466666666666669,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 85.58333333333333,
+        "b_std": 0.20816659994661738
+      }
+    },
+    "all_edge": {
+      "cost": {
+        "n": 3,
+        "mean_diff": 8.15,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 0.0,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": 177.99999999995904,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": 2.9666666666666592,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 69.15,
+        "b_std": 0.0
+      }
+    },
+    "frugalgpt": {
+      "cost": {
+        "statistic": -1.0707968124433954e+16,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -26.899999999999995,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 35.05,
+        "b_std": 0.0
+      },
+      "accuracy": {
+        "statistic": -70.6793564527257,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -9.350000000000003,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 81.46666666666665,
+        "b_std": 0.2362907813126305
+      }
+    },
+    "larc": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -19.049999999999997,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 27.2,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -46.46613030824526,
+        "p_value": 6.307399159772163e-05,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -6.8833333333333355,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 79.0,
+        "b_std": 0.2645751311064575
+      }
+    },
+    "latency_first": {
+      "cost": {
+        "n": 3,
+        "mean_diff": 8.15,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 0.0,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": 42.99999999998976,
+        "p_value": 0.00014063436755140578,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": 0.7166666666666591,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 71.4,
+        "b_std": 0.0
+      }
+    },
+    "random_0.5": {
+      "cost": {
+        "statistic": -123.98592131715448,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -41.48333333333333,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 49.63333333333333,
+        "b_std": 0.5795112883571217
+      },
+      "accuracy": {
+        "statistic": -18.604825580577774,
+        "p_value": 0.0024767885961307482,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -6.100000000000004,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 78.21666666666665,
+        "b_std": 0.5859465277082357
+      }
+    },
+    "reco_norb": {
+      "cost": {
+        "statistic": -1.1305066718733246e+16,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -28.399999999999995,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 36.55,
+        "b_std": 0.0
+      },
+      "accuracy": {
+        "statistic": -98.78291611473185,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -9.166666666666671,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 81.28333333333333,
+        "b_std": 0.1892969448600065
+      }
+    },
+    "static": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -6.899999999999999,
+        "a_mean": 8.15,
+        "a_std": 0.0,
+        "b_mean": 15.049999999999999,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -7.917946548886237,
+        "p_value": 0.015179002004613215,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -1.6000000000000085,
+        "a_mean": 72.11666666666666,
+        "a_std": 0.02886751345948785,
+        "b_mean": 73.71666666666668,
+        "b_std": 0.3214550253664298
+      }
+    }
+  },
+  "phi3_triviaqa": {
+    "aci": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -3.6500000000000004,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 11.15,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -12.970380458211649,
+        "p_value": 0.0054919747819112226,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -1.349999999999999,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 75.33333333333334,
+        "b_std": 0.1154700538379268
+      }
+    },
+    "all_cloud": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -92.5,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 100.0,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -173.6783270599011,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -16.11666666666666,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 90.10000000000001,
+        "b_std": 0.22912878474778675
+      }
+    },
+    "all_edge": {
+      "cost": {
+        "n": 3,
+        "mean_diff": 7.5,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 0.0,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": 89.19961563017564,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": 3.933333333333342,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 70.05,
+        "b_std": 0.0
+      }
+    },
+    "frugalgpt": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -18.8,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 26.3,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -70.00000000000061,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -6.999999999999996,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 80.98333333333333,
+        "b_std": 0.1755942292142165
+      }
+    },
+    "larc": {
+      "cost": {
+        "n": 3,
+        "mean_diff": 2.0999999999999996,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 5.400000000000001,
+        "b_std": 1.0877919644084146e-15,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -8.5104977192031,
+        "p_value": 0.013127432891859563,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -0.6499999999999962,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 74.63333333333333,
+        "b_std": 0.07637626158260075
+      }
+    },
+    "latency_first": {
+      "cost": {
+        "n": 3,
+        "mean_diff": 7.5,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 0.0,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": 6.42539604115677,
+        "p_value": 0.022975757483690903,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": 0.28333333333333616,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 73.7,
+        "b_std": 0.0
+      }
+    },
+    "random_0.5": {
+      "cost": {
+        "statistic": -125.9286496945627,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -42.13333333333333,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 49.63333333333333,
+        "b_std": 0.5795112883571217
+      },
+      "accuracy": {
+        "statistic": -93.73518930628975,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true,
+        "n": 3,
+        "mean_diff": -8.266666666666657,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 82.24999999999999,
+        "b_std": 0.13228756555323007
+      }
+    },
+    "reco_norb": {
+      "cost": {
+        "n": 3,
+        "mean_diff": 1.25,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 6.25,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -11.716898663286516,
+        "p_value": 0.006805686248571193,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -1.0333333333333268,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 75.01666666666667,
+        "b_std": 0.10408329997330072
+      }
+    },
+    "static": {
+      "cost": {
+        "n": 3,
+        "mean_diff": -2.75,
+        "a_mean": 7.5,
+        "a_std": 0.0,
+        "b_mean": 10.25,
+        "b_std": 0.0,
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant_005": true,
+        "significant_010": true
+      },
+      "accuracy": {
+        "statistic": -14.499999999999678,
+        "p_value": 0.004322816410970796,
+        "significant_005": "True",
+        "significant_010": "True",
+        "n": 3,
+        "mean_diff": -0.9666666666666591,
+        "a_mean": 73.98333333333333,
+        "a_std": 0.07637626158259919,
+        "b_mean": 74.95,
+        "b_std": 0.14999999999999858
+      }
+    }
+  }
+}

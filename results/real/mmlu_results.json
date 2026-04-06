@@ -1,0 +1,22 @@
+{
+  "total": 5000,
+  "edge_count": 800,
+  "cloud_count": 4200,
+  "edge_correct": 457,
+  "edge_wrong": 343,
+  "cloud_correct": 3815,
+  "cloud_wrong": 385,
+  "edge_accuracy": 0.57125,
+  "cloud_accuracy": 0.9083333333333333,
+  "edge_error_rate": 0.42875,
+  "cloud_ratio": 0.84,
+  "total_accuracy": 0.8544,
+  "cost_saved": 0.16,
+  "alpha": 0.4,
+  "calibration": {
+    "u_min": 0.16486258804798126,
+    "u_max": 0.6949643492698669,
+    "u_mean": 0.2809574581682682,
+    "u_std": 0.11013912585503889
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sep_vs_perplexity": {
+    "r": 0.5299546945061198,
+    "p": 1.4942608595383018e-37,
+    "interpretation": "LOW is good (SEP != simple perplexity)"
+  },
+  "sep_vs_length": {
+    "r": 0.05744535711132577,
+    "p": 0.19971590641240755,
+    "interpretation": "LOW is good (SEP != simple length)"
+  },
+  "sep_vs_error": {
+    "r": 0.06344461265352588,
+    "p": 0.15661707915917747,
+    "interpretation": "HIGH is good (SEP predicts errors)"
+  },
+  "perplexity_vs_error": {
+    "r": 0.11007135470185495,
+    "p": 0.013793491213377626,
+    "interpretation": "Baseline comparison"
+  },
+  "partial_sep_vs_error_controlling_perplexity": {
+    "r": 0.006027859717563113,
+    "interpretation": "POSITIVE means SEP adds value beyond perplexity"
+  }
+}

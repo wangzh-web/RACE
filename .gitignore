@@ -1,0 +1,160 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.lof
+*.lot
+
+# Experiment outputs - exclude large binaries only
+results/**/*.pt
+results/**/*.npz
+results/**/*.png
+results/**/*.log
+mlruns/
+wandb/
+*.ckpt
+*.pth
+*.pt
+models/*.bin
+models/*.safetensors
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Large datasets (DO NOT COPY - download on target machine)
+data/raw/
+data/cached/
+*.hdf5
+*.h5
+*.arrow
+
+# Gemini/Antigravity artifacts (LOCAL ONLY)
+.gemini/
+brain/
+
+# Skills library (LOCAL ONLY - 77 skills too large)
+_skills/
+
+# System files
+.cache/
+logs/
+*.pid
+*.seed
+*.coverage
+
+# API keys (NEVER COPY)
+.env
+*.key
+credentials.json
+openai_key.txt
+
+# Citation verification temporary output
+citation_verification_report.json
+
+# Large archives and binaries (DO NOT UPLOAD)
+*.zip
+*.exe
+*.pdf
+
+# Virtual environments
+.venv/
+
+# Large model files and checkpoints
+models/
+checkpoints/
+
+# Cloud results and cache
+cloud_results/
+cloud_cache/
+cloud_migration/
+
+# Submission packages (local only)
+submission_package/
+RACE_supplementary/
+
+# Agent/skill internal files (local only)
+.agent/
+tsc-paper-writing.skill
+
+# Misc local-only files
+experiment.log
+experiment_manifest.json
+get-pip.py
+1,
+implementation_plan.md
+reference_papers/
+
+# Local guides (not needed in public repo)
+CLOUD_COMPUTING_GUIDE.md
+WINDOWS_SETUP.md
+MIGRATION_GUIDE.md
+TSC_Paper_Strategy.md
+RACE_RESEARCH_JOURNEY_LECTURE.md
+Paper_Complexity_Analysis.md
+reference_classification.md
+references.md
+
+# Source code (release upon acceptance)
+src/
+experiments/
+scripts/
+baselines/
+paper/
+analysis/
+data/
+
+# Helper scripts (release upon acceptance)
+check_samples.py
+cleanup_for_submission.py
+eval_lmeval_api.py
+eval_mmlu_logprob.py
+fix_experiment.py
+fix_prompt.py
+pack_experiment.sh
+pack_supplementary.sh
+run_all.sh
+run_reco_auto.bat
+setup_cloud.sh
+requirements*.txt
+CONTRIBUTING.md
+EXPERIMENT_GUIDE.md
+PAPER_EXPERIMENTS_GUIDE.md
+README_EXPERIMENTS.md
+FIG2.graffle

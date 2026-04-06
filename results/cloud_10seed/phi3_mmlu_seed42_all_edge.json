@@ -1,0 +1,16 @@
+{
+  "method": "all_edge",
+  "seed": 42,
+  "accuracy": 69.15,
+  "cost": 0.0,
+  "edge_rate": 100.0,
+  "edge_error": 30.85,
+  "total_samples": 2000,
+  "correct": 1383,
+  "cloud_calls": 0,
+  "edge_errors": 617,
+  "timestamp": "2026-01-30T23:44:22.026092",
+  "model": "phi3",
+  "model_name": "Phi-3-medium",
+  "dataset": "mmlu"
+}

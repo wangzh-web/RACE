@@ -1,0 +1,16 @@
+{
+  "method": "aci",
+  "seed": 456,
+  "accuracy": 75.5,
+  "cost": 18.45,
+  "edge_rate": 81.55,
+  "edge_error": 24.892703862660944,
+  "total_samples": 2000,
+  "correct": 1510,
+  "cloud_calls": 369,
+  "edge_errors": 406,
+  "timestamp": "2026-01-31T02:20:25.572806",
+  "model": "phi3",
+  "model_name": "Phi-3-medium",
+  "dataset": "mmlu"
+}

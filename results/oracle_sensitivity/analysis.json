@@ -1,0 +1,30 @@
+{
+  "beta_values": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "analysis": {
+    "0.1": {
+      "optimal_accuracy": 0.9389473684210525,
+      "optimal_cost": 0.9484210526315789,
+      "cost_savings_%": 5.157894736842106,
+      "accuracy_gap": 0.011052631578947425,
+      "still_profitable": true
+    },
+    "0.3": {
+      "optimal_accuracy": 0.9389473684210525,
+      "optimal_cost": 0.9505263157894737,
+      "cost_savings_%": 4.947368421052634,
+      "accuracy_gap": 0.011052631578947425,
+      "still_profitable": true
+    },
+    "0.5": {
+      "optimal_accuracy": 0.9389473684210525,
+      "optimal_cost": 0.9526315789473684,
+      "cost_savings_%": 4.736842105263161,
+      "accuracy_gap": 0.011052631578947425,
+      "still_profitable": true
+    }
+  }
+}
