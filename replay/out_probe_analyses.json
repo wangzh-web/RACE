@@ -1,0 +1,354 @@
+{
+  "E1_cross_dataset": {
+    "auroc": {
+      "sep[mmlu]->data[mmlu]": 0.7572,
+      "sep[triviaqa]->data[mmlu]": 0.6331,
+      "sep[mmlu]->data[triviaqa]": 0.5082,
+      "sep[triviaqa]->data[triviaqa]": 0.749
+    },
+    "reliability": {
+      "sep[mmlu]->data[mmlu]": {
+        "bins": [
+          {
+            "bin": 0,
+            "mean_score": 0.0,
+            "error_rate": 0.035,
+            "n": 200
+          },
+          {
+            "bin": 1,
+            "mean_score": 0.0,
+            "error_rate": 0.075,
+            "n": 200
+          },
+          {
+            "bin": 2,
+            "mean_score": 1.2299999999999971e-06,
+            "error_rate": 0.065,
+            "n": 200
+          },
+          {
+            "bin": 3,
+            "mean_score": 9.044999999999999e-06,
+            "error_rate": 0.225,
+            "n": 200
+          },
+          {
+            "bin": 4,
+            "mean_score": 6.720000000000001e-05,
+            "error_rate": 0.22,
+            "n": 200
+          },
+          {
+            "bin": 5,
+            "mean_score": 0.00046613000000000004,
+            "error_rate": 0.41,
+            "n": 200
+          },
+          {
+            "bin": 6,
+            "mean_score": 0.004586375,
+            "error_rate": 0.415,
+            "n": 200
+          },
+          {
+            "bin": 7,
+            "mean_score": 0.065182855,
+            "error_rate": 0.55,
+            "n": 200
+          },
+          {
+            "bin": 8,
+            "mean_score": 0.5245954800000002,
+            "error_rate": 0.54,
+            "n": 200
+          },
+          {
+            "bin": 9,
+            "mean_score": 0.9817658149999999,
+            "error_rate": 0.55,
+            "n": 200
+          }
+        ],
+        "monotone": true
+      },
+      "sep[triviaqa]->data[mmlu]": {
+        "bins": [
+          {
+            "bin": 0,
+            "mean_score": 4.4114999999999994e-05,
+            "error_rate": 0.14,
+            "n": 200
+          },
+          {
+            "bin": 1,
+            "mean_score": 0.00010324000000000006,
+            "error_rate": 0.15,
+            "n": 200
+          },
+          {
+            "bin": 2,
+            "mean_score": 0.00017193999999999988,
+            "error_rate": 0.23,
+            "n": 200
+          },
+          {
+            "bin": 3,
+            "mean_score": 0.00027879999999999984,
+            "error_rate": 0.28,
+            "n": 200
+          },
+          {
+            "bin": 4,
+            "mean_score": 0.00042404499999999985,
+            "error_rate": 0.3,
+            "n": 200
+          },
+          {
+            "bin": 5,
+            "mean_score": 0.0006490550000000005,
+            "error_rate": 0.325,
+            "n": 200
+          },
+          {
+            "bin": 6,
+            "mean_score": 0.0010333649999999998,
+            "error_rate": 0.375,
+            "n": 200
+          },
+          {
+            "bin": 7,
+            "mean_score": 0.0016791150000000006,
+            "error_rate": 0.46,
+            "n": 200
+          },
+          {
+            "bin": 8,
+            "mean_score": 0.0030931349999999986,
+            "error_rate": 0.44,
+            "n": 200
+          },
+          {
+            "bin": 9,
+            "mean_score": 0.013986704999999997,
+            "error_rate": 0.385,
+            "n": 200
+          }
+        ],
+        "monotone": false
+      },
+      "sep[mmlu]->data[triviaqa]": {
+        "bins": [
+          {
+            "bin": 0,
+            "mean_score": 0.0003991149999999999,
+            "error_rate": 0.295,
+            "n": 200
+          },
+          {
+            "bin": 1,
+            "mean_score": 0.006374535,
+            "error_rate": 0.31,
+            "n": 200
+          },
+          {
+            "bin": 2,
+            "mean_score": 0.063386745,
+            "error_rate": 0.33,
+            "n": 200
+          },
+          {
+            "bin": 3,
+            "mean_score": 0.2963918600000003,
+            "error_rate": 0.25,
+            "n": 200
+          },
+          {
+            "bin": 4,
+            "mean_score": 0.6588840950000003,
+            "error_rate": 0.31,
+            "n": 200
+          },
+          {
+            "bin": 5,
+            "mean_score": 0.8963841600000003,
+            "error_rate": 0.26,
+            "n": 200
+          },
+          {
+            "bin": 6,
+            "mean_score": 0.9767686199999999,
+            "error_rate": 0.295,
+            "n": 200
+          },
+          {
+            "bin": 7,
+            "mean_score": 0.9924966300000001,
+            "error_rate": 0.265,
+            "n": 200
+          },
+          {
+            "bin": 8,
+            "mean_score": 0.9977224,
+            "error_rate": 0.36,
+            "n": 200
+          },
+          {
+            "bin": 9,
+            "mean_score": 0.9995462900000001,
+            "error_rate": 0.315,
+            "n": 200
+          }
+        ],
+        "monotone": false
+      },
+      "sep[triviaqa]->data[triviaqa]": {
+        "bins": [
+          {
+            "bin": 0,
+            "mean_score": 4.899999999999991e-07,
+            "error_rate": 0.085,
+            "n": 200
+          },
+          {
+            "bin": 1,
+            "mean_score": 2.5949999999999993e-06,
+            "error_rate": 0.08,
+            "n": 200
+          },
+          {
+            "bin": 2,
+            "mean_score": 7.63499999999999e-06,
+            "error_rate": 0.155,
+            "n": 200
+          },
+          {
+            "bin": 3,
+            "mean_score": 1.9839999999999986e-05,
+            "error_rate": 0.155,
+            "n": 200
+          },
+          {
+            "bin": 4,
+            "mean_score": 6.861999999999998e-05,
+            "error_rate": 0.26,
+            "n": 200
+          },
+          {
+            "bin": 5,
+            "mean_score": 0.000359895,
+            "error_rate": 0.305,
+            "n": 200
+          },
+          {
+            "bin": 6,
+            "mean_score": 0.0022850550000000002,
+            "error_rate": 0.305,
+            "n": 200
+          },
+          {
+            "bin": 7,
+            "mean_score": 0.018653920000000008,
+            "error_rate": 0.45,
+            "n": 200
+          },
+          {
+            "bin": 8,
+            "mean_score": 0.21576171999999996,
+            "error_rate": 0.545,
+            "n": 200
+          },
+          {
+            "bin": 9,
+            "mean_score": 0.8693901099999999,
+            "error_rate": 0.65,
+            "n": 200
+          }
+        ],
+        "monotone": true
+      }
+    },
+    "replay": {
+      "sep[mmlu]->data[mmlu]": {
+        "cir": 0.0625,
+        "edge_err": 0.29333333333333333,
+        "viol": false,
+        "window_viol": 0.4335
+      },
+      "sep[triviaqa]->data[mmlu]": {
+        "cir": 0.0,
+        "edge_err": 0.3085,
+        "viol": true,
+        "window_viol": 0.479
+      },
+      "sep[mmlu]->data[triviaqa]": {
+        "cir": 0.3415,
+        "edge_err": 0.2877752467729689,
+        "viol": false,
+        "window_viol": 0.406
+      },
+      "sep[triviaqa]->data[triviaqa]": {
+        "cir": 0.0405,
+        "edge_err": 0.2808754559666493,
+        "viol": false,
+        "window_viol": 0.3295
+      }
+    }
+  },
+  "E2_temperature": {
+    "greedy(T=0)": {
+      "edge_base_acc": 0.6915,
+      "auroc": 0.7572,
+      "cir": 0.0625,
+      "edge_err": 0.29333333333333333,
+      "viol": false,
+      "window_viol": 0.4335
+    },
+    "T=0.3": {
+      "edge_base_acc": 0.6839999999999999,
+      "auroc": 0.7471,
+      "cir": 0.0625,
+      "edge_err": 0.2986666666666667,
+      "viol": false,
+      "window_viol": 0.4735
+    },
+    "T=1.0": {
+      "edge_base_acc": 0.5720000000000001,
+      "auroc": 0.6947,
+      "cir": 0.113,
+      "edge_err": 0.40022547914317924,
+      "viol": true,
+      "window_viol": 0.777
+    },
+    "T=1.5": {
+      "edge_base_acc": 0.479,
+      "auroc": 0.6497,
+      "cir": 0.169,
+      "edge_err": 0.4897713598074609,
+      "viol": true,
+      "window_viol": 0.9885
+    }
+  },
+  "E5_fusion": {
+    "mmlu": {
+      "auroc_sep": 0.7572,
+      "auroc_maxprob": 0.8131,
+      "auroc_fusion": 0.8169,
+      "weights": [
+        -5.5117,
+        0.9345,
+        8.39
+      ]
+    },
+    "triviaqa": {
+      "auroc_sep": 0.749,
+      "auroc_maxprob": 0.7224,
+      "auroc_fusion": 0.7621,
+      "weights": [
+        -2.4996,
+        1.6223,
+        3.17
+      ]
+    }
+  }
+}

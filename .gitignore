@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+*_secret*
+*_token*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Large regenerable artifacts (kept out unless explicitly released)
+wandb/
+mlruns/
+*.log

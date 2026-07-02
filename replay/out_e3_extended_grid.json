@@ -1,0 +1,412 @@
+{
+  "phi3/MMLU|alpha=0.15|rho=0.99": [
+    {
+      "c_lo": "no-envelope",
+      "c_hi": null,
+      "cir": 0.112,
+      "edge_err": 0.27871621621621623,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.1,
+      "cir": 0.1265,
+      "edge_err": 0.2753291356611334,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.2,
+      "cir": 0.1265,
+      "edge_err": 0.2753291356611334,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.3,
+      "cir": 0.1265,
+      "edge_err": 0.2753291356611334,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.1,
+      "cir": 0.1205,
+      "edge_err": 0.27686185332575325,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.2,
+      "cir": 0.1205,
+      "edge_err": 0.27686185332575325,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.3,
+      "cir": 0.1205,
+      "edge_err": 0.27686185332575325,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.1,
+      "cir": 0.1195,
+      "edge_err": 0.2771152754116979,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.2,
+      "cir": 0.1195,
+      "edge_err": 0.2771152754116979,
+      "viol": true,
+      "window_viol": 0.832
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.3,
+      "cir": 0.1195,
+      "edge_err": 0.2771152754116979,
+      "viol": true,
+      "window_viol": 0.832
+    }
+  ],
+  "phi3/MMLU|alpha=0.4|rho=0.99": [
+    {
+      "c_lo": "no-envelope",
+      "c_hi": null,
+      "cir": 0.0615,
+      "edge_err": 0.2930207778369739,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.1,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.2,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.3,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.1,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.2,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.3,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.1,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.2,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.3,
+      "cir": 0.061,
+      "edge_err": 0.2933972310969116,
+      "viol": false,
+      "window_viol": 0.1795
+    }
+  ],
+  "phi3/TriviaQA|alpha=0.15|rho=0.99": [
+    {
+      "c_lo": "no-envelope",
+      "c_hi": null,
+      "cir": 0.163,
+      "edge_err": 0.23596176821983272,
+      "viol": true,
+      "window_viol": 0.92
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.1,
+      "cir": 0.169,
+      "edge_err": 0.2352587244283995,
+      "viol": true,
+      "window_viol": 0.922
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.2,
+      "cir": 0.169,
+      "edge_err": 0.2352587244283995,
+      "viol": true,
+      "window_viol": 0.922
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.3,
+      "cir": 0.169,
+      "edge_err": 0.2352587244283995,
+      "viol": true,
+      "window_viol": 0.922
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.1,
+      "cir": 0.1675,
+      "edge_err": 0.23603603603603604,
+      "viol": true,
+      "window_viol": 0.922
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.2,
+      "cir": 0.1675,
+      "edge_err": 0.23603603603603604,
+      "viol": true,
+      "window_viol": 0.922
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.3,
+      "cir": 0.1675,
+      "edge_err": 0.23603603603603604,
+      "viol": true,
+      "window_viol": 0.922
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.1,
+      "cir": 0.166,
+      "edge_err": 0.2356115107913669,
+      "viol": true,
+      "window_viol": 0.92
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.2,
+      "cir": 0.166,
+      "edge_err": 0.2356115107913669,
+      "viol": true,
+      "window_viol": 0.92
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.3,
+      "cir": 0.166,
+      "edge_err": 0.2356115107913669,
+      "viol": true,
+      "window_viol": 0.92
+    }
+  ],
+  "phi3/TriviaQA|alpha=0.4|rho=0.99": [
+    {
+      "c_lo": "no-envelope",
+      "c_hi": null,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.1,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.2,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.3,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.1,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.2,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.3,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.1,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.2,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.3,
+      "cir": 0.0305,
+      "edge_err": 0.2857142857142857,
+      "viol": false,
+      "window_viol": 0.0175
+    }
+  ],
+  "mistral/MMLU|alpha=0.3|rho=0.999": [
+    {
+      "c_lo": "no-envelope",
+      "c_hi": null,
+      "cir": 0.5205,
+      "edge_err": 0.30656934306569344,
+      "viol": true,
+      "window_viol": 0.502
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.1,
+      "cir": 0.5185,
+      "edge_err": 0.3063343717549325,
+      "viol": true,
+      "window_viol": 0.4985
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.2,
+      "cir": 0.5185,
+      "edge_err": 0.3073727933541018,
+      "viol": true,
+      "window_viol": 0.5525
+    },
+    {
+      "c_lo": 0.7,
+      "c_hi": 1.3,
+      "cir": 0.5185,
+      "edge_err": 0.3073727933541018,
+      "viol": true,
+      "window_viol": 0.5525
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.1,
+      "cir": 0.5185,
+      "edge_err": 0.3063343717549325,
+      "viol": true,
+      "window_viol": 0.4985
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.2,
+      "cir": 0.5185,
+      "edge_err": 0.3073727933541018,
+      "viol": true,
+      "window_viol": 0.5525
+    },
+    {
+      "c_lo": 0.8,
+      "c_hi": 1.3,
+      "cir": 0.5185,
+      "edge_err": 0.3073727933541018,
+      "viol": true,
+      "window_viol": 0.5525
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.1,
+      "cir": 0.5185,
+      "edge_err": 0.3063343717549325,
+      "viol": true,
+      "window_viol": 0.4985
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.2,
+      "cir": 0.5185,
+      "edge_err": 0.3073727933541018,
+      "viol": true,
+      "window_viol": 0.5525
+    },
+    {
+      "c_lo": 0.9,
+      "c_hi": 1.3,
+      "cir": 0.5185,
+      "edge_err": 0.3073727933541018,
+      "viol": true,
+      "window_viol": 0.5525
+    }
+  ]
+}

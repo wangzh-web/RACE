@@ -1,0 +1,18 @@
+{
+  "envelope": {
+    "cir": 0.06402925531914894,
+    "edge_err": 0.25119060876161925,
+    "burst_cir": 0.06,
+    "burst_winviol": 0.859,
+    "peak_win_err": 0.49400000000000005,
+    "viol_count": 0
+  },
+  "no-envelope": {
+    "cir": 0.06402925531914894,
+    "edge_err": 0.25119060876161925,
+    "burst_cir": 0.06,
+    "burst_winviol": 0.859,
+    "peak_win_err": 0.49400000000000005,
+    "viol_count": 0
+  }
+}

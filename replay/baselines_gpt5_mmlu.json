@@ -1,0 +1,42 @@
+{
+  "all_cloud": {
+    "cir": 100.0,
+    "edge_err": 0.0,
+    "acc": 93.4
+  },
+  "all_edge": {
+    "cir": 0.0,
+    "edge_err": 30.85,
+    "acc": 69.15
+  },
+  "latency_first": {
+    "cir": 0.0,
+    "edge_err": 30.85,
+    "acc": 69.15
+  },
+  "static": {
+    "cir": 15.0,
+    "edge_err": 26.94,
+    "acc": 75.35
+  },
+  "aci": {
+    "cir": 18.45,
+    "edge_err": 24.95,
+    "acc": 77.65
+  },
+  "frugalgpt": {
+    "cir": 19.4,
+    "edge_err": 24.88,
+    "acc": 77.8
+  },
+  "larc": {
+    "cir": 16.2,
+    "edge_err": 25.89,
+    "acc": 76.45
+  },
+  "random_0.5": {
+    "cir": 49.63,
+    "edge_err": 30.87,
+    "acc": 81.12
+  }
+}
